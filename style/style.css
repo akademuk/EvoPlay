@@ -223,7 +223,15 @@ aside img {
 }
 
 @media (max-width: 1200px) {
+  h1 {
+    text-align: left;
+  }
+  .out-num {
+    width: auto;
+  }
   .tittle-container {
+    padding: 0 30px;
+    align-items: baseline;
     justify-content: center;
   }
   .tittle-container::after {
@@ -253,14 +261,15 @@ aside img {
   }
   .out-num {
     margin-bottom: 0;
-    font-size: 44px;
+    font-size: 35px;
     margin-top: 0;
   }
   h1 {
-    font-size: 44px;
+    font-size: 35px;
   }
   .btn {
     width: 90vw;
+    margin-top: 50px;
   }
   #menu__toggle {
     opacity: 0;
