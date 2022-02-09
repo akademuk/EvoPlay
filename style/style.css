@@ -355,4 +355,19 @@ aside img {
     padding-left: 30px;
   }
 }
+
+@media (max-width: 568px) {
+  .tittle {
+    background: url(../img/mobile.png);
+    background-size: cover;
+  }
+  .tittle-container {
+    width: 80%;
+  }
+  .out-num {
+    width: 40%;
+    text-align: right;
+    justify-content: flex-end;
+  }
+}
 /*# sourceMappingURL=style.css.map */
