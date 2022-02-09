@@ -34,7 +34,7 @@ header {
 }
 
 .tittle {
-  background: url(../../img/casino-software.png);
+  background: url(../img/casino-software.png);
   background-size: 100% 100vh;
   background-position: 0px 12vh;
   background-repeat: no-repeat;
@@ -68,7 +68,7 @@ header {
 
 .tittle-container::after {
   content: "";
-  background: url(../../img/dog1.png), url(../../img/bones1.png);
+  background: url(../img/dog1.png), url(../img/bones1.png);
   background-size: auto;
   background-position: 100% 0, 25% 100%;
   background-repeat: no-repeat;
@@ -83,7 +83,7 @@ header {
 
 .tittle-container::before {
   content: "";
-  background: url(../../img/bones2.png), url(../../img/dog2.png);
+  background: url(../img/bones2.png), url(../img/dog2.png);
   background-size: auto;
   background-position: 30% 0, 70% 100%;
   background-repeat: no-repeat;
@@ -197,6 +197,13 @@ aside {
   display: flex;
   flex-direction: column;
   width: 30%;
+}
+
+aside img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
 }
 
 .carusel_tittle {
